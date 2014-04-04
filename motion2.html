@@ -1,0 +1,402 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>MotionChartID1cec22c521af</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<style type="text/css">
+body {
+  color: #444444;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 75%;
+  }
+  a {
+  color: #4D87C7;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+ <!-- MotionChart generated in R 2.15.1 by googleVis 0.4.7 package -->
+<!-- Tue Mar 25 16:51:50 2014 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataMotionChartID1cec22c521af () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+ "1",
+1,
+5.813038667,
+143.1329277 
+],
+[
+ "1",
+2,
+5.804084371,
+148.9886648 
+],
+[
+ "1",
+3,
+5.809287616,
+143.4741148 
+],
+[
+ "1",
+4,
+5.854862179,
+144.3134369 
+],
+[
+ "1",
+5,
+5.835093534,
+138.9167849 
+],
+[
+ "1",
+6,
+5.826077596,
+134.5086364 
+],
+[
+ "1",
+7,
+5.831126379,
+142.9259241 
+],
+[
+ "1",
+8,
+5.834838111,
+146.2662254 
+],
+[
+ "1",
+9,
+5.825970088,
+142.8986848 
+],
+[
+ "1",
+10,
+5.935404421,
+157.4482741 
+],
+[
+ "1",
+11,
+5.833107578,
+151.1340949 
+],
+[
+ "1",
+12,
+5.891902489,
+149.8465064 
+],
+[
+ "2",
+1,
+5.100552955,
+124.8369948 
+],
+[
+ "2",
+2,
+5.110698812,
+136.7272775 
+],
+[
+ "2",
+3,
+5.114919104,
+129.1036975 
+],
+[
+ "2",
+4,
+5.109520078,
+131.0299014 
+],
+[
+ "2",
+5,
+5.112290227,
+125.8540352 
+],
+[
+ "2",
+6,
+5.147099567,
+122.2394857 
+],
+[
+ "2",
+7,
+5.253916239,
+140.9059244 
+],
+[
+ "2",
+8,
+5.100823288,
+136.6510795 
+],
+[
+ "2",
+9,
+5.118736316,
+129.8965708 
+],
+[
+ "2",
+10,
+5.102308405,
+134.7712754 
+],
+[
+ "2",
+11,
+5.124541947,
+123.3730937 
+],
+[
+ "2",
+12,
+5.140190902,
+126.4223605 
+],
+[
+ "3",
+1,
+5.910606287,
+148.7875409 
+],
+[
+ "3",
+2,
+5.916112402,
+145.7927164 
+],
+[
+ "3",
+3,
+5.916263707,
+150.6867146 
+],
+[
+ "3",
+4,
+5.94994499,
+145.6209134 
+],
+[
+ "3",
+5,
+5.975447045,
+154.6308136 
+],
+[
+ "3",
+6,
+5.971279027,
+151.5662539 
+],
+[
+ "3",
+7,
+6.021890176,
+147.5701976 
+],
+[
+ "3",
+8,
+6.060714934,
+143.6951529 
+],
+[
+ "3",
+9,
+5.914719948,
+147.0849764 
+],
+[
+ "3",
+10,
+6.022903023,
+152.4890025 
+],
+[
+ "3",
+11,
+5.911735718,
+143.7309582 
+],
+[
+ "3",
+12,
+5.93903465,
+143.3684135 
+],
+[
+ "4",
+1,
+5.010076398,
+132.0944894 
+],
+[
+ "4",
+2,
+5.031428675,
+125.5074458 
+],
+[
+ "4",
+3,
+5.043633354,
+128.1947229 
+],
+[
+ "4",
+4,
+5.021611467,
+127.1089371 
+],
+[
+ "4",
+5,
+5.005014481,
+121.9571504 
+],
+[
+ "4",
+6,
+5.022727984,
+115.6116893 
+],
+[
+ "4",
+7,
+5.044519092,
+132.3324051 
+],
+[
+ "4",
+8,
+5.041145935,
+134.1228363 
+],
+[
+ "4",
+9,
+5.142765174,
+117.3962678 
+],
+[
+ "4",
+10,
+5.282190354,
+123.6523598 
+],
+[
+ "4",
+11,
+5.059413013,
+125.1497258 
+],
+[
+ "4",
+12,
+5.383936688,
+128.4041777 
+] 
+];
+data.addColumn('string','id');
+data.addColumn('number','time');
+data.addColumn('number','height');
+data.addColumn('number','weight');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartMotionChartID1cec22c521af() {
+var data = gvisDataMotionChartID1cec22c521af();
+var options = {};
+options["width"] =    600;
+options["height"] =    500;
+
+
+    var chart = new google.visualization.MotionChart(
+    document.getElementById('MotionChartID1cec22c521af')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "motionchart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartMotionChartID1cec22c521af);
+})();
+function displayChartMotionChartID1cec22c521af() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID1cec22c521af"></script>
+ 
+<!-- divChart -->
+  
+<div id="MotionChartID1cec22c521af"
+  style="width: 600px; height: 500px;">
+</div>
+ <div><span>Data: dat &#8226; Chart ID: <a href="Chart_MotionChartID1cec22c521af.html">MotionChartID1cec22c521af</a></span><br /> 
+<!-- htmlFooter -->
+<span> 
+  R version 2.15.1 (2012-06-22) &#8226; <a href="http://code.google.com/p/google-motion-charts-with-r/">googleVis-0.4.7</a>
+  &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/motionchart.html#Data_Policy">Data Policy</a>
+</span></div>
+</body>
+</html>
