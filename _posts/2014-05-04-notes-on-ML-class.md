@@ -22,7 +22,6 @@ General Approach
 
 Deciding What to Try Next
 -------------------------
-
 Whenever you want to improve the performance of a predictive model you have a few options you can consider. As exmaples you can:
 
 + Get more data to train on
