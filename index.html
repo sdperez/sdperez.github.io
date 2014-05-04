@@ -1,7 +1,18 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages now and will be posting content son.</p>
-</body>
-</html>
+---
+layout: default
+title: TrailingZero
+---
+<div id="home">
+  <img src="Stones.png" alt="stones" height="240" width="1000">
+  <h1>Intro</h1>
+  <p> A site on the art of data analysis. Below you'll find posts about interesting visualizations, models and data analysis techniques.</p>
+</div>
+<div id="home">
+  <h1>Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
