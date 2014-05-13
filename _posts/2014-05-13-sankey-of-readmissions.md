@@ -7,9 +7,8 @@ In surgical research you often study patients outcomes such as mortality, compli
 
 
 
-<iframe src='images/unnamed-chunk-1.html' scrolling='no' seamless class='rChart
-http://timelyportfolio.github.io/rCharts_d3_sankey' id=iframe-chart14c024130be></iframe>
-<style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<iframe src="/images/unnamed-chunk-1.html" width=1000 height=700></iframe>
+
 
 
 Because you have so many categories in complications and readmission reasons this would make for a very big table. It's much simpler to understand as a plot.
