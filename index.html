@@ -3,12 +3,18 @@ layout: default
 title: TrailingZero
 ---
 <div id="home">
-  <img src="/images/books.jpg" alt="stones" height="240" width="1000">
-  <h1>Intro</h1>
-  <p> A site on the art of data analysis. Below you'll find posts about interesting visualizations, models and data analysis techniques.</p>
+  <img src="images/boxplotpaint.jpg"  height="200" width="1000">
+  
+  
+     <h2> Introduction</h2>
+     <div class="content">
+     <p> "It ain't what you don't know that gets you into trouble. It's what you know for sure that just ain't so."</br>
+-Mark Twain.</p>
+     <p>Big data and analytics are everywhere in the media nowadays. Despite the hype, there's no denying the utility of analytics and some of the accomplishments that have been made because of it. I believe data can be beautiful: in particular good analysis and visualization of data is beautiful. I also think that the collaboration and sharing that the internet has produced is inspiring. I wouldn't know half of what I do if it weren't for blogs, MOOCs, online course notes and other resources. In that vein, this is a site to share things I'm learning.</p>
+     </div>
 </div>
 <div id="home">
-  <h1>Posts</h1>
+  <h2>Posts</h2>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
