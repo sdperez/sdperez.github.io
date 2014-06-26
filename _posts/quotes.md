@@ -2,11 +2,10 @@
 
 title: Great Statistics Quotes
 ---
-
-* What gets measured, gets managed. 
--Peter Drucker
 * The price of light is less than the cost of darkness.
 —Arthur C. Nielsen, Market Researcher & Founder of ACNielsen
+* What gets measured, gets managed. 
+-Peter Drucker
 * War is ninety percent information.
 —Napoleon Bonaparte, French Military and Political Leader
 * A point of view can be a dangerous luxury when substituted for insight and understanding.
@@ -25,7 +24,7 @@ title: Great Statistics Quotes
 —Ronald Coase, Economist
 * Errors using inadequate data are much less than those using no data at all.
 -Charles Babbage
-*Once we know something, we find it hard to imagine what it was like not to know it.
+* Once we know something, we find it hard to imagine what it was like not to know it.
 —Chip & Dan Heath, Authors of Made to Stick, Switch
 * If you can’t explain it simply, you don’t understand it well enough.
 —Albert Einstein, Physicist
@@ -41,7 +40,7 @@ title: Great Statistics Quotes
 - Sherlock Holmes (Arthur Conan Doyle).
 * Experts often possess more data than judgment.
 -Colin Powell
-* There is a magic in graphs. The pro?le of a curve reveals in a ?ash a whole situation — the life history of an epidemic, a panic, or an era of prosperity. The curve informs the mind, awakens the imagination, convinces.
+* There is a magic in graphs. The profile of a curve reveals in a flash a whole situation — the life history of an epidemic, a panic, or an era of prosperity. The curve informs the mind, awakens the imagination, convinces.
 - Henry D. Hubbard, 1939
 * You can have data without information, but you cannot have information without data.
 -Daniel Keys Moran
